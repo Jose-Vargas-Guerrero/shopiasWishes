@@ -1,12 +1,5 @@
 const labiales = [
   {
-    nombre: "Cremesheen Lipstick",
-    descripcion: "Es un labial cremoso que otorga un acabado brillante con una cobertura modulable.",
-    precio: 300,
-    id: 1,
-    imagen: "../images/labial1.jpg"
-  },
-  {
     nombre: "Lifter Gloss",
     descripcion: "Es un brillo labial que también aporta volumen con ácido hialurónico.",
     precio: 400,
