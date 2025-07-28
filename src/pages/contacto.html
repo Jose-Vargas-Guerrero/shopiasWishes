@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos - Sophia's Wishes</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="hamburger" id="hamburger">☰</div>
+      <ul id="navbar-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="/src/pages/cosmeticos.html">Cosméticos</a></li>
+        <li><a href="/src/pages/perfumeria.html">Perfumería</a></li>
+        <li><a href="/src/pages/contacto.html">Contactanos</a></li>
+        <li><a href="/src/pages/sobre_nosotros.html">Sobre nosotros</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <a href="index.html">
+        <img
+          src="/src/images/logo.jpg"
+          alt="Sophia's Wishes Logo"
+          class="logo"
+        />
+      </a>
+      <h1>Contáctanos</h1>
+      <p>Encuéntranos en nuestras redes sociales</p>
+    </header>
+
+    <main class="contacto-redes">
+      <div class="red-card">
+        <i class="fab fa-facebook icono-red"></i>
+        <h2>Facebook</h2>
+        <a href="https://www.facebook.com/SophiasWishes" target="_blank"
+          >Ir a Facebook</a
+        >
+      </div>
+      <div class="red-card">
+        <i class="fab fa-instagram icono-red"></i>
+        <h2>Instagram</h2>
+        <a href="https://www.instagram.com/SophiasWishes" target="_blank"
+          >Ir a Instagram</a
+        >
+      </div>
+      <div class="red-card">
+        <i class="fab fa-whatsapp icono-red"></i>
+        <h2>WhatsApp</h2>
+        <a href="https://wa.me/50433590448" target="_blank">+504 3359-0448</a>
+      </div>
+      <div class="red-card">
+        <i class="fab fa-tiktok icono-red"></i>
+        <h2>TikTok</h2>
+        <a href="https://www.tiktok.com/@sophiaswishes_" target="_blank"
+          >@sophiaswishes_</a
+        >
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Sophia’s Wishes - Todos los derechos reservados</p>
+    </footer>
+
+    <div class="boton-carrito-container">
+      <a href="carrito.html" class="boton-carrito">
+        🛍️ <span id="carrito-contador" class="contador-carrito">0</span>
+      </a>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.getElementById("hamburger");
+        const navbarMenu = document.getElementById("navbar-menu");
+
+        hamburger.addEventListener("click", function () {
+          navbarMenu.classList.toggle("show");
+        });
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

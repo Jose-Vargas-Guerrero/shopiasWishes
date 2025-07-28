@@ -1,0 +1,11 @@
+{{#each items}}
+  <div class="category-card" onclick="mostrarDescripcion(this, '{{descripcion}}', {{precio}})">
+    <img src="{{imagen}}" alt="{{nombre}}" />
+    <h2>{{nombre}}</h2>
+    <p><strong>L.{{precio}}</strong></p>
+    <button onclick="event.stopPropagation(); agregarAlCarrito('{{nombre}}', {{id}}, {{precio}})">
+      Agregar al carrito
+    </button>
+    <div class="descripcion-producto" style="display: none"></div>
+  </div>
+{{/each}}

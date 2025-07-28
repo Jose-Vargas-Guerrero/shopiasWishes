@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Sophia's Wishes</title>
+  <meta name="description"
+    content="Explora Sophia’s Wishes: lo mejor en cosméticos y fragancias exquisitas para resaltar tu belleza natural. ¡Envíos a toda Honduras!">
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+  
+<body>
+  <nav class="navbar">
+  <div class="hamburger" id="hamburger">
+    ☰
+  </div>
+  <ul id="navbar-menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="/src/pages/cosmeticos.html">Cosméticos</a></li>
+    <li><a href="/src/pages/perfumeria.html">Perfumería</a></li>
+    <li><a href="/src/pages/contacto.html">Contactanos</a></li>
+    <li><a href="/src/pages/sobre_nosotros.html">Sobre nosotros</a></li>
+  </ul>
+</nav>
+
+
+  <header class="header-flex">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="./src/images/logo.jpg" alt="Sophia's Wishes Logo" class="logo">
+      </a>
+    </div>
+    <div class="texto-container">
+      <h1>Bienvenidos a Sophia’s Wishes</h1>
+      <p>Explora nuestros productos de belleza y fragancias los mejores de Honduras para Damas y Caballeros</p>
+    </div>
+  </header>
+
+  <main class="categories">
+    <div class="category-card" onclick="goTo('/src/pages/cosmeticos.html')">
+      <img src="./src/images/cosmeticos.jpeg" alt="Cosméticos">
+      <div class="card-text">
+        <h2>Cosméticos</h2>
+        <p>La mejor selección para tu piel y estilos que perduran encuentra tus Cosmeticos Deseados</p>
+      </div>
+    </div>
+    <div class="category-card" onclick="goTo('/src/pages/perfumeria.html')">
+      <img src="./src/images/perfumes.jpeg" alt="Perfumería">
+      <div class="card-text">
+        <h2>Perfumería</h2>
+        <p>La mejor selección de Fragancias que encantan y perduran encuentra tus Aromas Deseados</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sophia’s Wishes - Todos los derechos reservados</p>
+  </footer>
+
+  <div class="boton-carrito-container">
+    <a href="/src/pages/carrito.html" class="boton-carrito">
+      🛍️ <span id="carrito-contador" class="contador-carrito">0</span>
+    </a>
+  </div>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const navbarMenu = document.getElementById("navbar-menu");
+
+    hamburger.addEventListener("click", function () {
+      navbarMenu.classList.toggle("show");
+    });
+  });
+</script>
+
+
+  <script src="script.js"></script>
+ 
+
+
+</body>
+
+</html>

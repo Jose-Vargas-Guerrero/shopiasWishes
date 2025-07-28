@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bases para Damas - Sophia's Wishes</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="hamburger" id="hamburger">☰</div>
+      <ul id="navbar-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="/src/pages/cosmeticos.html">Cosméticos</a></li>
+        <li><a href="/src/pages/perfumeria.html">Perfumería</a></li>
+        <li><a href="/src/pages/contacto.html">Contactanos</a></li>
+        <li><a href="/src/pages/sobre_nosotros.html">Sobre nosotros</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <a href="index.html">
+        <img
+          src="/src/images/logo.jpg"
+          alt="Sophia's Wishes Logo"
+          class="logo"
+        />
+      </a>
+      <h1>Bases para Dama</h1>
+      <p>Explora nuestra colección exclusiva de Bases</p>
+    </header>
+
+    <main class="categories"></main>
+
+    <footer>
+      <p>&copy; 2025 Sophia’s Wishes - Todos los derechos reservados</p>
+    </footer>
+
+    <div class="boton-carrito-container">
+      <a href="carrito.html" class="boton-carrito">
+        🛍️ <span id="carrito-contador" class="contador-carrito">0</span>
+      </a>
+    </div>
+
+    <script type="module">
+      import { bases } from "../data/bases.js";
+      import { renderCards } from "../templates/renderCards.js";
+
+      renderCards(bases, "main.categories");
+    </script>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

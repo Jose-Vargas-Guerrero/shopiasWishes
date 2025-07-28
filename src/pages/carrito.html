@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito - Sophia's Wishes</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="hamburger" id="hamburger">☰</div>
+      <ul id="navbar-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="/src/pages/cosmeticos.html">Cosméticos</a></li>
+        <li><a href="/src/pages/perfumeria.html">Perfumería</a></li>
+        <li><a href="/src/pages/contacto.html">Contactanos</a></li>
+        <li><a href="/src/pages/sobre_nosotros.html">Sobre nosotros</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <a href="index.html">
+        <img
+          src="/src/images/logo.jpg"
+          alt="Sophia's Wishes Logo"
+          class="logo"
+        />
+      </a>
+      <h1>Tu Carrito de Compras</h1>
+      <p>Revisa los productos antes de finalizar tu pedido</p>
+    </header>
+
+    <main class="cart-container">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Total</th>
+            <th>Eliminar</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- Productos del carrito se insertarán aquí dinámicamente -->
+        </tbody>
+      </table>
+
+      <div class="cart-summary">
+        <p><strong>Total a pagar: </strong><span id="total">L 0.00</span></p>
+        <button onclick="mostrarFormulario()">Finalizar Compra</button>
+      </div>
+
+      <div id="formulario-cotizacion" style="display: none; margin-top: 2rem">
+        <h2>Datos para Cotización</h2>
+        <form onsubmit="return enviarCotizacion(event)">
+          <input
+            type="text"
+            id="nombre"
+            placeholder="Nombre completo"
+            required
+          /><br /><br />
+          <input
+            type="tel"
+            id="telefono"
+            placeholder="Número de teléfono"
+            required
+          /><br /><br />
+          <input
+            type="text"
+            id="codigo"
+            placeholder="Código de cliente (opcional)"
+          /><br /><br />
+          <button type="submit">Enviar Cotización</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Sophia’s Wishes - Todos los derechos reservados</p>
+    </footer>
+
+    <div class="boton-carrito-container">
+      <a href="carrito.html" class="boton-carrito">
+        🛍️ <span id="carrito-contador" class="contador-carrito">0</span>
+      </a>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.getElementById("hamburger");
+        const navbarMenu = document.getElementById("navbar-menu");
+
+        hamburger.addEventListener("click", function () {
+          navbarMenu.classList.toggle("show");
+        });
+      });
+    </script>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
