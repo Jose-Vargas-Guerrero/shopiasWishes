@@ -1,4 +1,3 @@
-import Handlebars from 'handlebars';
 
 export function renderCards(data, selector, templatePath = '../templates/card.hbs') {
   fetch(templatePath)
