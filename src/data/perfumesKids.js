@@ -10,7 +10,7 @@
     stockId: 610,
   },
   {
-    id: 2,
+    id: 1,
     nombre: "Zara The Lion King",
     descripcion: "captura la belleza salvaje de la sabana con una mezcla de pomelo, frutas acuáticas y suave.",
     precio: 940,
@@ -20,7 +20,7 @@
     stockId: 620,
   },
   {
-    id: 3,
+    id: 1,
     nombre: "nautica voyage",
     descripcion: "Un aroma amaderado marino de uso diario encantador y fresco, permite la activación mental y carga nuevamente de energía al cuerpo.",
     precio: 750,
@@ -30,7 +30,7 @@
     stockId: 630,
   },
   {
-    id: 4,
+    id: 1,
     nombre: "Fragancia Pacos",
     descripcion: "Fragancia cítrica de bergamota, lima y limón.",
     precio: 400,
