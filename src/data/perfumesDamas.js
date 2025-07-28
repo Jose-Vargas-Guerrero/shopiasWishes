@@ -1,6 +1,6 @@
 const perfumesDamas = [
      {
-    id: 9,
+    id: 1,
     nombre: "DOLCE & GABBANA",
     descripcion: "perfumen de mujer, y con todo un legado que representa la tradición y el glamour italiano, Dolce & Gabbana se ha convertido en todo un referente para aquellas mujeres que buscan ser reconocidas por su perfume.",
     precio: 700,
@@ -10,7 +10,7 @@ const perfumesDamas = [
     stockId: 610,
   },
   {
-    id: 10,
+    id: 1,
     nombre: "GIORGIO ARMANI",
     descripcion: "Diseñado para una mujer de mente abierta, curiosa y auténtica, es una fragancia floral que representa los encuentros florales alrededor de todo el mundo.",
     precio: 600,
@@ -20,7 +20,7 @@ const perfumesDamas = [
     stockId: 620,
   },
   {
-    id: 11,
+    id: 1,
     nombre: "CACHAREL TOILETT",
     descripcion: "Dirigida a las mujeres a las que les gustan los aromas suaves y dulces afrutadas",
     precio: 800,
@@ -30,7 +30,7 @@ const perfumesDamas = [
     stockId: 630,
   },
   {
-    id: 12,
+    id: 1,
     nombre: "GIVENCHY",
     descripcion: "Un universo idílico, magnético y envolvente donde encontrar tu aroma favorito.",
     precio: 1200,
