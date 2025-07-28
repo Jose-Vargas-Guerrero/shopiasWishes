@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
 
-export function renderCards(data, selector, templatePath = '/src/templates/card.hbs') {
+export function renderCards(data, selector, templatePath = '../../src/templates/card.hbs') {
   fetch(templatePath)
     .then(res => res.text())
     .then(templateText => {

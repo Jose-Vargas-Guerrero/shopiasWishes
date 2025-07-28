@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bases para Damas - Sophia's Wishes</title>
-    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
   </head>
 
   <body>
     <nav class="navbar">
       <div class="hamburger" id="hamburger">☰</div>
-      <<ul id="navbar-menu">
+      <ul id="navbar-menu">
         <li><a href="../../index.html">Inicio</a></li>
         <li><a href="./cosmeticos.html">Cosméticos</a></li>
         <li><a href="./perfumeria.html">Perfumería</a></li>
@@ -44,8 +44,8 @@
     </div>
 
     <script type="module">
-      import { bases } from "../data/bases.js";
-      import { renderCards } from "../templates/renderCards.js";
+      import { bases } from "../../src/data/bases.js";
+      import { renderCards } from "../../src/templates/renderCards.js";
 
       renderCards(bases, "main.categories");
     </script>
