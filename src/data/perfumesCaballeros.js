@@ -4,7 +4,7 @@ const perfumesCaballeros = [
     nombre: "Hugo Boss",
     descripcion: "una fragancia amaderada y especiada, y Hugo, una opción más fresca y herbal.",
     precio: 700,
-    imagen: "../images/HugoBoss.jpg",
+    imagen: "../images/hugoBoss.jpg",
     alt: "Perfume para Caballero 1",
     categoria: "Caballero",
     stockId: 610,
