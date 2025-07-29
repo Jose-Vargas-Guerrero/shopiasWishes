@@ -30,7 +30,7 @@ const perfumesCaballeros = [
     imagen: "../images/Polo.jpg",
     alt: "Perfume para Caballero 3",
     categoria: "Caballero",
-    stockId: 630,
+    
   },
   {
     id: 1,
@@ -40,7 +40,7 @@ const perfumesCaballeros = [
     imagen: "../images/PacoRabane.jpg",
     alt: "Perfume para Caballero 4",
     categoria: "Caballero",
-    stockId: 640,
+    
   }
 ]
 
