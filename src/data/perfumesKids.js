@@ -9,7 +9,7 @@
     imagen: "../images/PerfumenNiño.jpg",
     alt: "Perfume para niños 1",
     categoria: "Niños",
-    stockId: 610,
+    
   },
   {
     id: 1,
@@ -19,7 +19,7 @@
     imagen: "../images/LionKing.jpg",
     alt: "Perfume para Niños 2",
     categoria: "Niños",
-    stockId: 620,
+    
   },
   {
     id: 1,
@@ -29,7 +29,7 @@
     imagen: "../images/Nautica.jpg",
     alt: "Perfume para Niños 3",
     categoria: "Niños",
-    stockId: 630,
+    
   },
   {
     id: 1,
@@ -39,7 +39,7 @@
     imagen: "../images/Pacos.jpg",
     alt: "Perfume para Niños 4",
     categoria: "Niños",
-    stockId: 640,
+    
   }
 ]
 

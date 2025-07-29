@@ -10,7 +10,7 @@ const perfumesDamas = [
     imagen: "../images/perfumen1.jpg",
     alt: "Perfume para Dama 1",
     categoria: "Dama",
-    stockId: 610,
+    
   },
   {
     id: 1,
@@ -20,7 +20,7 @@ const perfumesDamas = [
     imagen: "../images/perfumen2.jpg",
     alt: "Perfume para Dama 2",
     categoria: "Dama",
-    stockId: 620,
+    
   },
   {
     id: 1,
@@ -30,7 +30,7 @@ const perfumesDamas = [
     imagen: "../images/perfumen3.jpg",
     alt: "Perfume para Dama 3",
     categoria: "Dama",
-    stockId: 630,
+    
   },
   {
     id: 1,
@@ -40,7 +40,7 @@ const perfumesDamas = [
     imagen: "../images/perfumen4.jpg",
     alt: "Perfume para Dama 4",
     categoria: "Dama",
-    stockId: 640,
+   
   },
 ]
 
