@@ -1,5 +1,5 @@
 // src/data/bases.js
-
+//Bases Damas javascript
 export const bases = [
   {
     id: 1,

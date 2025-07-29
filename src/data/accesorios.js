@@ -1,3 +1,6 @@
+
+//Acessorios Damas y Caballeros javascript
+
 const accesorios = [
     {
       id: 1,

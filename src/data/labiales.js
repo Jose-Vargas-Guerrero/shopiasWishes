@@ -1,3 +1,6 @@
+
+//Labiales Damas javascript
+
 const labiales = [
   {
     nombre: "Lifter Gloss",
