@@ -10,7 +10,7 @@ const perfumesCaballeros = [
     imagen: "../images/hugoBoss.jpg",
     alt: "Perfume para Caballero 1",
     categoria: "Caballero",
-    stockId: 610,
+  
   },
   {
     id: 1,
@@ -20,7 +20,7 @@ const perfumesCaballeros = [
     imagen: "../images/Lacoste.jpg",
     alt: "Perfume para Caballero 2",
     categoria: "Caballero",
-    stockId: 620,
+    
   },
   {
     id: 1,
@@ -30,7 +30,7 @@ const perfumesCaballeros = [
     imagen: "../images/Polo.jpg",
     alt: "Perfume para Caballero 3",
     categoria: "Caballero",
-    stockId: 630,
+    
   },
   {
     id: 1,
@@ -40,7 +40,7 @@ const perfumesCaballeros = [
     imagen: "../images/PacoRabane.jpg",
     alt: "Perfume para Caballero 4",
     categoria: "Caballero",
-    stockId: 640,
+    
   }
 ]
 
